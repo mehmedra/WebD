@@ -1,0 +1,115 @@
+body{
+	background-color:#00f900;
+	background-image: url("pic/Paper1.jpg");
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	background-color: darkblue;
+	background-color: rgb(255, 255, 255);
+	background-color: rgb(50%, 50%, 50%);
+	background-attachment: fixed;
+	background: green url("pic/Paper1.jpg") no-repeat top right fixed;
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/800px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg");*/
+	/* This is a single-line comment */
+}
+
+table{
+	border-collapse: collapse;
+	
+	text-align: center;
+}
+
+td,th {
+	border: 1px solid black;
+	
+	padding: 25px 35px 45px 55px;
+	padding: 25px 35px 45px;
+	padding: 25px 55px;
+	padding: 30px;
+}
+img {
+	width: 15%;
+	display: block;
+	margin: auto;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	/*z-index: -1;*/
+	opacity: 0.6;
+	border: black 2px double;
+	border-radius: 15px;
+}
+
+a[target="_blank"] {
+	background-color: yellow;
+	}
+
+img:hover{
+	opacity: 1.0;
+}
+
+p {
+text-align: center;
+color: blue;
+margin: 15px;
+}
+
+h2{
+	color: darkblue;
+	direction: ltr;
+}
+
+#par1{
+	color:#ff0000;
+	font-size:30px
+}
+
+#par2{
+	color:#000000;
+}
+
+#par3{
+	color:#ffffff;
+}
+
+#par4{
+	color:#FF00ff;
+}
+
+.par5{
+	color:red
+}
+
+p.ali{
+	background-color: blue;
+	color:#0ff0f0;
+	font-size:200%;
+	text-align:left;
+	text-indent: 100px;
+
+}
+
+a{
+	color: blue;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+h2.ali{
+	color:#f000f0;
+	font-size:30px;
+	text-align:right;
+	direction:rtl
+}
+
+ul {
+	list-style-type:none;
+	margin: 15px 5px;
+	padding: 0px;
+}
+
+li {
+	Display:inline;
+	padding: 5px;
+	border: #000000 solid;
+}
